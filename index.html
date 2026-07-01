@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My Portfolio Website">
+<meta name="keywords" content="Portfolio, HTML, CSS">
+<meta name="author" content="Your Name">
+
+<title>My Portfolio</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#005fa3;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+button{
+    background:#0077cc;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>My Portfolio</h1>
+<p>Welcome to My Portfolio Website</p>
+</header>
+
+<nav aria-label="Main Navigation">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="about">
+<h2>About Me</h2>
+<p>Hello! My name is Your Name. I am a student and I am learning Web Development. I enjoy creating websites using HTML and CSS.</p>
+</section>
+
+<article>
+<h2>My Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript (Basic)</li>
+</ul>
+</article>
+
+<aside>
+<h2>My Goal</h2>
+<p>To become a Full Stack Web Developer.</p>
+</aside>
+
+<section id="projects">
+<h2>Projects</h2>
+<ul>
+<li>Portfolio Website</li>
+<li>Calculator</li>
+<li>Student Management System</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+
+<form>
+
+<label for="name">Name</label>
+<input type="text" id="name" aria-label="Name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" aria-label="Email" required>
+
+<label for="message">Message</label>
+<textarea id="message" aria-label="Message" rows="5"></textarea>
+
+<button type="submit">Send</button>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
